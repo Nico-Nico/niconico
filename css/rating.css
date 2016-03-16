@@ -1,0 +1,43 @@
+.rating{
+  color: #31313B;
+  margin: 0;
+  padding: 0;
+}
+
+ul.rating {
+  display: inline-block;
+}
+
+.rating li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.rating .filled {
+  color: #FDD645;
+}
+
+.skillContainer{
+  /*max-width: 400px;*/
+  clear: both;
+}
+
+.skill{
+  float: left;
+}
+.level{
+  float: right;
+}
+
+.centerDiv{
+  max-width: 400px;
+  margin: auto;
+}
+
+.skillsHr{
+  max-width: 450px;
+}

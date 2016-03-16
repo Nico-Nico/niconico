@@ -1,0 +1,108 @@
+/*
+MyKuler palette:
+"lyseblå", gul, rød, hvid, mørkeblå
+#255B9B, #FDD645, #F15656, #F2F8FF, #31313B
+*/
+
+header{
+	background-color: #31313B; /*#2B3E50;*/
+}
+header img {
+	width: 20%;
+    display: block;
+    margin: 0 auto 20px;
+    border: 10px solid white;
+    border-radius: 100%;
+}
+@media(max-width:767px) {
+    header img {
+    	width: 50%;
+    }
+}
+
+header hr.star-light:after { /* the star */
+	background-color: #31313B;
+}
+header hr.star-light{ /* the line */
+    border-color: white;
+}
+
+section#profile{
+	/*color: #31313B;*/
+	background-color: #F15656;
+}
+#profile hr.star-light:after { /* the star */
+	background-color: #F15656;
+}
+#profile hr.star-light{ /* the line */
+    border-color: white;
+}
+
+section#education{
+	background-color: #FDD645;
+}
+#education hr.star-light:after { /* the star */
+	color: #31313B;
+	background-color: #FDD645;
+}
+#education hr.star-light{ /* the line */
+    border-color: #31313B;
+}
+#education{
+	color: #31313B;
+}
+.expName{
+	font-weight: bold;
+}
+.expDescription{
+	font-style: italic;
+}
+.expTitle{
+	color: black;
+}
+
+hr{
+	background-color: red;
+}
+
+#work{
+	background-color: #255B9B;
+}
+#work a{
+	color: white;
+}
+#work hr.star-light:after { /* the star */
+	color: white;
+	background-color: #255B9B;
+}
+#work hr.star-light{ /* the line */
+    border-color: white;
+}
+
+section#skills{
+	background-color: #F15656; 
+}
+
+#skills hr.star-light:after { /* the star */
+	color: white;
+	background-color: #F15656;
+}
+#skills hr.star-light{ /* the line */
+    border-color: white;
+}
+#skills .row .col-lg-3{
+	background-color: green;
+}
+
+
+footer hr.star-light:after { /* the star */
+	color: white;
+	background-color: #2C3E50;
+}
+footer hr.star-light{ /* the line */
+    border-color: white;
+}
+
+hr.star{
+	display:none;
+}
